@@ -1,0 +1,83 @@
+#entirebody { 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width:100%;
+}
+
+#indexbanner {
+
+	display:block;
+	position:relative;
+	background-color:#607D8B;
+	background-image: url('../imgs/dark_embroidery.png');
+	text-align:center;
+	color:#CCCCCC;
+	padding:20px;
+	
+}
+
+.title {
+	display:inline-block;
+	font-size:20px;
+	font-family:arial;
+	font-style:italic;
+	text-align:right;
+	text-transform:uppercase;
+}
+.title2 {
+	display:inline-block;
+	font-size:60px;
+	font-family:times new roman;
+}	
+
+
+#indexmenu {
+	display:block;
+	position:relative;
+	background-color:#313131;
+	height:60px;
+	padding-top:25px;
+	padding-bottom:0px;
+	text-align:center;
+}
+
+#indexmenu a:link, a:visited {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+#indexmenu a:hover {
+	text-decoration:underline;
+	color:#455A64;
+
+}
+.indexbutton {
+	padding:10px;	
+	text-transform:uppercase;
+	text-align:center;
+	
+}
+
+#content {
+	font-size:12pt;
+	font-family:Times New Roman;
+	margin-left:auto;
+	width:100%;
+	text-align:center;
+}
+
+.blogheader{ 
+	text-align:left;
+	width:100%;
+	background-color:#C1C1C1;
+	text-transform:lowercase;
+	font-family:arial;
+	font-style:none;
+}
+
+.blogposts { 
+	text-align:left;
+	font-family:arial;
+	}

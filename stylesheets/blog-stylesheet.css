@@ -1,15 +1,17 @@
+
 html {
 	background-color: #FFFFFFF;
 }
 
 #header {
-	position: relative;
+	display:block;
 	padding-top:20px;
 	padding-bottom:30px;
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
 	text-align:center;
+	background-image: url('../imgs/green_cup.png');
 }
 
 .title {
@@ -27,7 +29,7 @@ html {
 }
 
 #menu	{
-	position: relative;
+	display:block;
 	left:0px;
 	right:0px;
 	padding-top:20px;
@@ -56,6 +58,19 @@ html {
 	font-size:15px;
 	font-family:arial;
 }
+
+
+.menubutton a:link, a:visited {
+	text-decoration:none;
+	color: #4CAF50;
+}
+
+.menubutton a:hover { 
+	color:#388E3C;
+	text-decoration:underline;
+}
+
+
 
 
 #body
@@ -118,9 +133,4 @@ html {
 	border-bottom: 1px solid #000000;
 	text-align:center;
 }
-
-
-
-	
-
 
