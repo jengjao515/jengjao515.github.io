@@ -1,3 +1,10 @@
+/* This is for all webpages */
+
+html {
+	background-image: url('../imgs/congruent_pentagon.png');
+	background-repeat:repeat;
+}
+
 #entirebody { 
 	position: absolute;
 	top: 0;
@@ -8,8 +15,9 @@
 	overflow:auto;
 }
 
-#indexbanner {
+/* This is for top banner */
 
+#indexbanner {
 	display:block;
 	position:relative;
 	background-color:#607D8B;
@@ -17,9 +25,7 @@
 	text-align:center;
 	color:#CCCCCC;
 	padding:20px;
-	
 }
-
 .title {
 	display:inline-block;
 	font-size:20px;
@@ -34,6 +40,7 @@
 	font-family:times new roman;
 }	
 
+/* This is for the menu bar */
 
 #indexmenu {
 	display:block;
@@ -48,37 +55,100 @@
 #indexmenu a:link, a:visited {
 	text-decoration:none;
 	color:#FFFFFF;
+	padding:20px;
 }
 #indexmenu a:hover {
-	text-decoration:underline;
+	text-decoration:none;
 	color:#455A64;
-
+	background-color:#FFFFFF;
+	padding:20px;
 }
-.indexbutton {
-	padding:10px;	
+.indexbutton{
+	padding:0px;	
 	text-transform:uppercase;
 	text-align:center;
+}
+
+/* This is for the body below the menu */
+	
+div #content {
+	display:block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	height:100%;
+	background-color:#FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size:12pt;
+	font-family:Times New Roman;
+	color:#000000;
+}
+
+#content a:link { 
+	color: #FF9800;
+	text-decoration:none;
+	font-style:bold;
+}
+
+#content a:visited { 
+	color: #FF9800;
+	text-decoration:none;
+	font-style:bold;
+}
+
+#content a:hover {
+	color:#FBC02D;
+	text-decoration:none;
+}
+
+/* This is for the headers */
+.header {
+	display:block;
+	width:100%;
+	font-size:20pt;
+	font-family:arial;
+	color:#607D8B;
+	text-align:center;
+}
+.headsub {
+	display:block;
+	font-style:italic;
+	font-size:9pt;
+	font-family:arial;
+	color:#727272;
+}
+
+/* This is for only the footer */
+
+footer {
+	position:fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	width:100%;
+	padding:10px;
+	text-align:left;
+	background-image: url('../imgs/dark_embroidery.png');
+	color:#CCCCCC;
+	font-family:arial;
+	font-size:8pt;
+	font-style:italic;
+}
+
+footer a:link, a:visited {
+	text-decoration:none;
+	font-style:bold;
+	font-family: Times New Roman;
+	color:#FFFFFF;
+	text-transform:uppercase;
 	
 }
 
-#content {
-	font-size:12pt;
-	font-family:Times New Roman;
-	margin-left:auto;
-	width:100%;
-	text-align:center;
+footer a:hover { 
+	text-decoration:none;
+	color:#455A64;
 }
-
-.blogheader{ 
-	text-align:left;
-	width:100%;
-	background-color:#C1C1C1;
-	text-transform:lowercase;
-	font-family:arial;
-	font-style:none;
-}
-
-.blogposts { 
-	text-align:left;
-	font-family:arial;
-	}
