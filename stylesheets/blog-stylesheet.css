@@ -6,7 +6,7 @@
 }
 
 .blogpost {
-	font-size:12pt;
+	font-size:15px;
 	font-family:Times new roman;
 	font-style:none;
 	color:#000000;
@@ -15,7 +15,7 @@
 .bheader {
 	display:block;
 	width:100%;
-	font-size:20pt;
+	font-size:25pt;
 	font-family:arial;
 	color:#009688;
 	text-align:left;
@@ -23,7 +23,7 @@
 .bheadsub {
 	display:block;
 	font-style:italic;
-	font-size:9pt;
+	font-size:10px;
 	font-family:arial;
 	color:#009688;
 	text-align:left;
