@@ -1,0 +1,91 @@
+<!-- DOCTYPE HTML-->
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+	<title>Jaochico . Blogs</title>
+
+</head>
+
+<body>
+<!-- This div makes sure the top banner has 0px -->
+<div id="entirebody">
+	<!-- THIS CODE IS ONLY FOR THE BANNER AND MENU -->
+	<div id="indexbanner">
+		
+		<span class="title">Jennifer<br/>Jaochico's</span>
+		<span class="title2">blog</span>
+	</div>		
+
+	<header id="indexmenu">
+
+		<span class="indexbutton"><a href="../index.html">Home</a></span>
+		<span class="indexbutton"><a href="../projects.html">Projects</a></span>
+		<span class="indexbutton"><a href="../blogindex.html">Blog</a>
+		<span class="indexbutton"><a href="../about.html">About</a></span>
+		<span class="indexbutton"><a href="../connect.html">Connect</a></span>
+	</header>
+
+	<!-- EVERYTHING BELOW THE MENU MIGHT BE DIFFERENT -->
+	<div id="content">
+
+		<p class="bheader">
+			Arrays and Hashes
+  			<span class="bheadsub">lists and more</span>
+			<span class="datetime">date posted 04/03/2015 21:24</span>
+		</p>
+		<p class="blogspot">
+			Alright, so what is the difference between <b>Arrays</b> and <b>Hashes</b>? That is this week's question. Well, let's start off with defining them first. 
+
+			<p>
+			In Ruby, an <b>Array</b> is a list that can be called on later by their place in the list. 
+			It looks like this in code: </p>
+			<p align="center">
+				<code>
+					ArrayName = ["your friend", "my name", 2, "322", 12038]
+				</code>
+			</p>
+			<p>
+			A <b>Hash</b> is also a list, however, everything in the list is paired with something else. It looks like this in code. 
+			</p>
+			<p align="center">
+				<code>
+					HashName = {
+						:my_dog => "Freddy", 
+						:your_dog => "Mitchell"
+						:breed1 => "Golden Retriever"
+						:breed2 => "Chihuahua"
+					}
+				</code>
+			</p>
+			<p>
+			So now you've seen what they look like, how does Ruby use them? I'll compare an <u>array</u> to your typical <i>guest list</i>. Let's say you're planning a small party and you need to refer to the list. You would say "so and so is <b>first</b> on the list". In Ruby, you would
+			refer to the first person as guestList[0]. For Ruby, the first person or thing in an array has <i>position [0]</i>. (So the second person would be [1], third person [2], etc.) 
+			</p>
+			<p>
+			A <u>hash</u> is similar to your phonebook. Every name on your list refers to something else on the list. Maybe you forgot your friend's phone number and his name is Mike. You'd simply go your contacts list and search his name which would at some point lead to you dialing his number. A hash works similarly. The words on the left side of the list are referred to as <i>'keys' which are connected to 'values' on the right</i>. So in this case, Mike would be a key, and his phone number would be a value. 
+			</p>
+			<p>
+			I hope my explanations made sense to you and especially you sir/mam, the non-tech person. Thanks for reading!
+			</p>
+
+		</p>
+</div>
+	
+	<!-- This creates the space between the content and the body, so it doesn't cover content -->
+	<div>
+		&nbsp;
+	</div>
+	
+	<footer>
+	
+		<p>
+		layout developed by <a href="about.html">Jennifer Jaochico</a> | textures from <a href="http://subtlepatterns.com/">Subtle Patterns</a>
+		</p>
+
+	</footer>
+
+</div>
+</body>
+</html>
