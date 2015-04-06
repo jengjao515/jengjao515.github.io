@@ -15,7 +15,7 @@
 .bheader {
 	display:block;
 	width:100%;
-	font-size:25pt;
+	font-size:30px;
 	font-family:arial;
 	color:#009688;
 	text-align:left;
@@ -27,4 +27,11 @@
 	font-family:arial;
 	color:#009688;
 	text-align:left;
+}
+
+code {
+	background-color:#C0C0C0;
+	font-family:courier;
+	font-size:15px;
+	padding: 5px;
 }
