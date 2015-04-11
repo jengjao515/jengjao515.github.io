@@ -1,0 +1,108 @@
+<!-- DOCTYPE HTML-->
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+	<title>Jaochico . Blogs</title>
+
+</head>
+
+<body>
+
+<section id="bcontent">
+
+		<p class="bheader">
+			.map Method
+  			<span class="bheadsub">enumerables</span>
+			<span class="datetime">date posted 04/11/2015 13:50</span>
+		</p>
+		<p class="blogspot">
+			<p>
+		The technical definition for <b>.map</b> is that it uses blocking to 
+		make changes to each element in an array that it's attached to. 
+		Most of the definitions you look up for Ruby enumerables all sound exactly
+		like this. .collect and .each also have similar definitions, which is probably
+		a lot of the reason I had difficulty learning about Ruby this week. 
+		But even though it might not look like it when you write out the actual code,
+		there are slight differences. 
+			</p>
+			<p>
+		The .map method looks like this in code:
+			</p>
+			<p align=center>
+			<code>
+			array = [ 1, 2, 3 ] 
+			array_name.map { |e| e * 2 } 
+			</code> 
+			</p>
+			<p> And here's the output: </p>
+			<p align=center>
+			<code>
+			array_name = [ 2, 4, 6 ] 
+			</code>
+			</p>
+			<p>
+		The code block, the right part of the code in  <b>' { } '</b>, tells the .map 
+		method to do whatever's inside those squiggly lines/curly braces to each element
+		in an array. Now, how is this different? Well, bear with me here, it's going
+		to sound more confusing than it actually is. <i>The .map method changes each element, 
+		unlike .each, which adds to each element.</i> 
+			</p>
+			<p>
+		Not clicking? I wouldn't be surprised. It took me awhile, too. The best example I can think of
+		is chicken nuggets. Yes, this is a stretch, a really big stretch when explaining this method, 
+		but give it a chance. 
+		</p>
+			<p>
+		As a kid, I absolutely hated chicken nuggets without sauce. So let's start off by relating 
+		this idea to the .each method. Let's say an array is this bowl of chicken nuggets. 
+		But I wanted sauce, so my mom would always put sauce on the side of plate. So, now I have chicken
+		nuggets and sauce, but technically, I haven't really changed anything to the chicken nuggets. 
+		This is how the .each method works, add something to each element, but you're not changing the original
+		element. 		
+			</p>
+			<p>
+		The .map method actually adds changes to the original elements in an array. So this could be when you
+		cook the chicken nuggets. Usually, they come in one of those huge frozen Costco bags. In order for them
+		to be edible, you'd cook them in an oven or a microwave. This is what the .map method can do, change
+		the nuggets from frozen to cooked.
+			</p>
+			<p>
+		See? I told you it was a stretch. But hopefully that made some sort of sense. 
+		Now, to add maybe even a little more confusion, there are two versions to the .map method. 
+		<b>.map</b> and <b>.map!</b>. 
+			</p>
+			<p>
+			<b>Destructive and Non-destructive</b>
+			<br/>
+			<b>.map</b> does not make any permanent changes to the original array. Going back to our
+			chicken nuggets example, yes, you've changed the nuggets from frozen to cooked, but essentially, 
+			they're still chicken nuggets. This would be the <b>non-destructive</b> version of .map. 
+			</p>
+			<p>
+			In order to make it <b>destructive</b>, you would change <i>.map</i> to <i>.map!</i>. 
+			Using the nuggets example again, let's say you've overcooked the nuggets, these nuggets are no 
+			longer edible. It doesn't even taste like chicken anymore, it tastes like straight charcoal. 
+			You can't even classify it as chicken anymore, it is just black meat.
+			The .map! method permanently changes the original array, so now when you use that array 
+			for other methods, you will get the array with the changes. 	
+			</p>
+			<p>
+			I don't know why I thought of chicken nuggets and ketchup, but hopefully, you won't think of
+			enumerables and chicken all the time, unless this example helps. I'm still hoping it does. Thanks
+			for reading, though!
+		</p>
+</section>
+
+	<footer>
+	
+		<p>
+		return to <a href="../blogindex.html">index</a>
+		<br/> &nbsp;
+		</p>
+		
+	</footer>
+
+</body>
+</html>
