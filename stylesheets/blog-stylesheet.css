@@ -1,38 +1,116 @@
-.datetime {
-	display:block;
-	font-style:italic;
-	font-size:7pt;
-	color:#4CAF50;
+html {
+	background-image:url('../imgs/wood.png');
+	background-repeat: repeat;
 }
+<<<<<<< HEAD
 
 .blogpost {
 	font-size:15px;
 	font-family:Times New Roman;
 	font-style:none;
+=======
+#bcontent {
+	background-color:#FFFFFF;
+	width:70%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;	
+	padding-right: 10px;
+	padding-bottom: 1px;	
+	font-family:tahoma;
+	font-size: 15px;
+>>>>>>> 0c8bd5e01c4a4b48cd8f35069022c6af11b9cb5e
 	color:#000000;
+
 }
+
+#bcontent  p {
+	margin: 0;
+	padding: 10px;
+}
+
+a:link, a:visited {
+	color:#939185;
+	text-decoration:none;
+}
+
+a:hover { 
+	color:#c9cfd4;
+	text-decoration:underline;
+}
+
+/* start of blog post css */
 
 .bheader {
 	display:block;
 	width:100%;
-	font-size:30px;
-	font-family:arial;
-	color:#009688;
+	font-size:40px;
+	font-family:'Covered By Your Grace', cursive;
+	text-decoration:none;
+	color:#000000;
 	text-align:left;
+	text-transform: lowercase;
+	border-bottom: 1px dotted #000000;
 }
+
 .bheadsub {
 	display:block;
-	font-style:italic;
-	font-size:10px;
+	font-size:17px;
 	font-family:arial;
-	color:#009688;
+	color:#83692a;
 	text-align:left;
 }
 
+.datetime {
+	display:block;
+	font-family:tahoma;
+	font-style:italic;
+	font-size:12px;
+	color:#123456;
+}
+
+/* footer */
+
+footer {
+	display:block;
+	width:60%;
+	background-image: url('../imgs/binding_dark.png');
+	padding-left: 10px;	
+	padding-right: 10px;
+	padding-top: 1px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-family:'Covered By Your Grace', cursive;
+	font-size: 20px;
+	color:#c9cfd4;
+}
+
+footer a:link, a:visited {
+	color:#e2dcc1;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	color:#e8cb4a;
+	text-decoration:none;
+	font-style:italic;
+}
+
+
+/* extra styling */
 code {
 	background-color:#C0C0C0;
 	font-family:courier;
+<<<<<<< HEAD
 	font-size:15px;
 	padding: 5px;
 	color:#000000;
+=======
+	font-size:14px;
+	padding: 1px;
+>>>>>>> 0c8bd5e01c4a4b48cd8f35069022c6af11b9cb5e
 }
