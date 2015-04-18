@@ -1,0 +1,97 @@
+<!-- DOCTYPE HTML-->
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+	<title>Jaochico . Blogs</title>
+
+</head>
+
+<body>
+
+<section id="bcontent">
+
+	<p class="bheader">
+		"Classes" hardcarry your Ruby code
+		<span class="bheadsub">instances, methods, and booleans</span>
+		<span class="datetime">date posted 04/17/2015 20:00</span>
+		</p>
+		
+	<p class="blogpost">
+		What do you think of when you first hear the word, class? Probably a classroom or 
+		a social class. In Ruby, a class is a manual for how an object will work. Let's say
+		you're trying to figure out how to change the temperature in your house, a manual
+		for the thermostat can guide you through it. For ruby, the manual guides the object. 
+		<p>
+		So let's try this out step-by-step. Let's make a class called Thermostat that takes
+		an integer as a parameter. This integer will represent the current temperature
+		in the house. 
+		</p>
+		<p align=center>
+			<img src="../imgs/t5ruby.png" width="600" height="400" />
+		</p>
+		<p>
+		Alright, Jeng, why are you throwing all this code at me? Hold on, bear with me here. 
+		Notice the line numbers on the left? I'll be explaining using those lines. 
+		</p>
+		<p>
+		<b>Line[1-18]</b> This is the entire class, called Thermostat. This is our manual
+		for checking how our temperature is. Ignore everything below Line 18 until later. 
+		<br/><br/>
+		<b>Line[3-6]</b> So there are a couple things going on here. First, let's talk about
+		all these <b>def</b>s. These are our methods, our chapters in a manual. 
+		Each method guides the object through the "how-to's" of being part of this class, this
+		'clique' of objects. 
+		<br/><br/>
+		But most importantly, what are the requirements to even BE part of this class? 
+		That's where the <b>initialize</b> comes in. According to this initialize method, 
+		you need a parameter that's an integer. Okay, so Jennifer, what are all these
+		@ signs for? These are <b>instance variables</b>. They are the tools you're going
+		to use within this class. But sometimes you need to use the same tools in different
+		methods. Defining them as @instance variables allows you to do this. 
+		<br/><br/>
+		The last part of this method has an <b>ArgumentError</b>. You know how in
+		Harry Potter, you needed to know the dormitory password to get into any of the
+		houses? This message will pop up if you don't have the correct input to become
+		part of this class and until you bring this method the correct input (an integer), it 
+		will not let you in. (Just like the Fat Lady portrait in Harry Potter, poor Neville, never
+		had the right password). 
+		<br/><br/>
+		<b>Line[8-17]</b> So now you've made your way into the class! Congratulations! Let's teach
+		you how to act like a thermostat. According to our lovely friend, the Internet, most of the
+		research points to 65F as an average household temperature. So let's set our
+		instance variable, average_temp to 65. But what if I came into this class not knowing
+		what the average temperature was? What if I came in too hot? Too cold? 
+		<br/><br/>
+		As a member of the honorary Thermostat class, you get to learn how to check
+		which side of the spectrum your temperature's at. I've decided to use if/else 
+		statements in this. If you're too high, too low, or just right, it will spit
+		out a <b>String</b> (a Ruby class you will see all the time) letting you know
+		how you're temperature is. 
+		<br/><br/>
+
+		<b>Line[20-27]</b> is testing out our class, adding new members, and making sure 
+		all the code works within the class Thermostat. 
+		</p>
+		<p>
+		There's a huge amount you could add to this code. You could specify a way to change
+		the thermostat, when it should turn off, etc. But for this blog's purposes, 
+		we'll keep it short and sweet. 
+		</p>
+		
+		
+	</p>
+</section>
+
+	<footer>
+	
+		<p>
+		return to <a href="../blogindex.html">index</a>
+		<br/> &nbsp;
+		</p>
+		
+	</footer>
+
+</body>
+</html>
