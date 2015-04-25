@@ -1,0 +1,61 @@
+<!-- DOCTYPE HTML-->
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+	<title>Jaochico . Blogs</title>
+
+</head>
+
+<body>
+
+<section id="bcontent">
+
+	<p class="bheader">
+		Welcome to Scope City
+		<span class="bheadsub">global, local, and everything in between</span>
+		<span class="datetime">date posted 04/23/2015 16:44</span>
+		</p>
+		
+	<p class="blogpost">
+		Ruby has a variety of variable types. But let's start with the basic stuff. 
+		<p>
+		Every variable has a scope type: <b>global</b> or <b>local</b>. 
+	<P>	A <b>local variable</b> can only be accessed within where it was declared. If it 
+		was created within a method or a class, it can only be used within those areas. Calling
+		the variable outside will output an error in the terminal. 
+	</p><P> A <b>global variable</b> can be accessed anywhere after the variable has been declared. 
+		You can reference to past global variables declared in past code, but you can't
+		reference to new variables down the code. 
+		</P>
+	<p>	<code>
+		gvariable = "I am Groot!"
+		
+	<br/><br/>	def space_ship
+	<br/>	&nbsp; &nbsp; &nbsp; p "Hello!" + gvariable
+	<br/>	&nbsp; &nbsp; &nbsp; lvariable = "I am Vin Diesel."
+	<br/>	end
+	<br/><br/>
+		space_ship => "Hello! I am Groot!"
+		<br/>p lvariable => This will not show "I am Vin Diesel." You will get an error.
+		</code>
+	</p><p> Now you know that Groot and Vin Diesel are in separate places. 
+		Groot is the best, so he can show up whenever you need him to. But Vin Diesel's a
+		busy guy so he's limited to when he can make an appearance. 
+	</p>
+		
+	</p>
+</section>
+
+	<footer>
+	
+		<p>
+		return to <a href="../blogindex.html">index</a>
+		<br/> &nbsp;
+		</p>
+		
+	</footer>
+
+</body>
+</html>
