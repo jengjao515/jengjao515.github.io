@@ -28,6 +28,7 @@
 	</p><P> A <b>global variable</b> can be accessed anywhere after the variable has been declared. 
 		You can reference to past global variables declared in past code, but you can't
 		reference to new variables down the code. 
+		<br><b>NOTE</b> $globalvariables also can have dollar signs in front. 
 		</P>
 	<p>	<code>
 		gvariable = "I am Groot!"
@@ -43,8 +44,18 @@
 	</p><p> Now you know that Groot and Vin Diesel are in separate places. 
 		Groot is the best, so he can show up whenever you need him to. But Vin Diesel's a
 		busy guy so he's limited to when he can make an appearance. 
-	</p>
-		
+		</p>
+		<p>Now it's time to add to the confusion. Here are the rest of your types of variables. 
+		</p>
+		<p>
+		<b>Constant variable</b> = CONSTANT
+		<br/> This sounds exactly what it is. A Constant variable can be defined locally or globally. 
+		It can also be changed along a piece of code, but usually maintains the same value. 
+		<br/><b>Class Variable</b> = @@class_var
+		<br/>This variable is defined within a class and has to be initialized before using it.
+		<br/><b>Instance Variable</b> = @instance_var
+		<br/> Similar to a class variable, but they don't all have to be in the initialize method
+		within a class. 	
 	</p>
 </section>
 
