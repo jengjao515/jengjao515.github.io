@@ -1,0 +1,99 @@
+<!-- DOCTYPE HTML-->
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+	<title>Jaochico . Blogs</title>
+
+</head>
+
+<body>
+
+<section id="bcontent">
+
+	<p class="bheader">
+		Javascript needs friends
+		<span class="bheadsub">Ruby hashes vs. Javascript Objects</span>
+		<span class="datetime">date posted 04/30/2015 13:29</span>
+		</p>
+		
+	<p class="blogpost">
+		The first thing you learn in Ruby is that <i>everything is an <b>object</b>.</i> The first thing you learn in Javascript is that <i>you need to code everything out</i>. Although the logic behind the languages are similar, Ruby's built-in methods make the code look a lot cleaner. Javascript also has built-in methods, however, they take a little more space on the screen to use. 
+
+<p>
+		So let's get to our real discussion about Ruby hashes vs. Javascript objects. They are typically created the same way. 
+</p>
+<p>		<b>Javascript object</b>
+		<br/><code>
+		var javascript = {}
+		</code>
+</p>
+<p>		<b>Ruby hash</b>
+		<br/><code>
+		ruby = {}
+		<br/># or 
+		<br/> ruby = Hash.new
+		</code>
+</p>
+<p>
+		Now let's add some fat to these hashes/objects. 
+</p>
+<p>		<b>Javascript object</b>
+		<br/><code>
+		var javascript = {
+			<br/>&nbsp;&nbsp;name: "Javascript",
+			<br/>&nbsp;&nbsp;nickname: "JS"
+		<br/>}
+		</code>
+</p>
+<p>		<b>Ruby hash</b>
+		<br/><code>
+		ruby = {
+			<br/>&nbsp;&nbsp;name => "Ruby",
+			<br/>&nbsp;&nbsp;nickname => "R"
+		}
+		</code>
+</p>
+<p>
+		It's important to note that Javascript object pairs are called <b>properties</b> and <b>values</b>. In Ruby, they're called <b>keys</b> and <b>values</b>.
+		So how do we add items later on? These are pretty similar, as well. You can also change the values of existing properties through the same way as adding. 
+</p>
+<p>		<b>Javascript object</b>
+		<br/><code>
+		var javascript = {
+			<br/>&nbsp;&nbsp;name: "Javascript",
+			<br/>&nbsp;&nbsp;nickname: "JS"
+		<br/>}
+		<br/>
+		javascript.quote = "Add me!"
+		<br/>// or 
+		<br/>javascript["quote"]
+		</code>
+</p>
+<p>		<b>Ruby hash</b>
+		<br/><code>
+		ruby = {
+			<br/>&nbsp;&nbsp;name => "Ruby",
+			<br/>&nbsp;&nbsp;nickname => "R"
+		}
+		<br/>ruby[quote] = "Add me, too!"
+		</code>
+</p>
+<p>
+		Both hashes and objects store information that can be accessed and changed. They're pretty useful when you want to categorize some specific information, for example, a phonebook. 	
+</p>
+	</p>
+</section>
+
+	<footer>
+	
+		<p>
+		return to <a href="../blogindex.html">index</a>
+		<br/> &nbsp;
+		</p>
+		
+	</footer>
+
+</body>
+</html>
