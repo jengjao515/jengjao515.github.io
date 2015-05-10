@@ -1,0 +1,105 @@
+html {
+
+  overflow:auto;
+
+}
+body  {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+
+header h1 {
+  font-family: Arial;
+  font-weight: none;
+  font-size: 40px;
+  color: #FFFFFF;
+  background-color: #607D8B;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+nav {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 25%;
+
+  padding: 10px;
+  position: relative;
+}
+
+nav h2 {
+  font-family: Arial;
+  font-size: 30px;
+  margin: 5px 0 0 0;
+  padding: 5px 0 15px 0;
+  border-bottom: 1px dashed black;
+}
+
+nav a, :link, :visited{
+  text-decoration: none;
+  font-weight: bold;
+  color: #455A64;
+}
+
+nav a:hover {
+  color: #FF9800;
+}
+
+section {
+  border-left: 1px solid black;
+  display: inline-block;
+  float: right;
+  height: 100%;
+  padding: 10px;
+  width: 70%;
+}
+
+.sectionheader h3 {
+  font-family: Arial;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.definitions li {
+  font-weight: bold;
+  padding: 7px;
+
+}
+
+.definitions li p {
+  font-weight: normal;
+}
+
+.definitions li code {
+  font-weight: normal;
+}
+
+code {
+  background-color: #B6B6B6;
+  padding: 10px;
+  border: 1px solid #727272;
+  border-radius: 5px;
+}
+
+footer {
+  clear: both;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
