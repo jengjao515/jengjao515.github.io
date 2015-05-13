@@ -1,154 +1,120 @@
-/* This is for all webpages */
-
-html {
-	background-image: url('../imgs/congruent_pentagon.png');
-	background-repeat:repeat;
+/* sets positions of footer and changes margin */
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
 }
 
-#entirebody { 
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	width:100%;
-	overflow:auto;
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -2em;
 }
 
-/* This is for top banner */
-
-#indexbanner {
-	display:block;
-	position:relative;
-	background-color:#607D8B;
-	background-image: url('../imgs/dark_embroidery.png');
-	text-align:center;
-	color:#CCCCCC;
-	padding:20px;
-}
-.title {
-	display:inline-block;
-	font-size:20px;
-	font-family:arial;
-	font-style:italic;
-	text-align:right;
-	text-transform:uppercase;
-}
-.title2 {
-	display:inline-block;
-	font-size:60px;
-	font-family:times new roman;
-}	
-
-/* This is for the menu bar */
-
-#indexmenu {
-	display:block;
-	position:relative;
-	background-color:#313131;
-	height:60px;
-	padding-top:25px;
-	padding-bottom:0px;
-	text-align:center;
+.footer, .push {
+height: 2em;
 }
 
-#indexmenu a:link, a:visited {
+
+/* sets top bar */
+nav {
+	background: url('imgs/binding_dark.png');
+	display: block;
+	font-family: Courier New;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+nav a:link, a:visited {
 	text-decoration:none;
 	color:#FFFFFF;
-	padding:20px;
 }
-#indexmenu a:hover {
+
+nav a:hover {
 	text-decoration:none;
-	color:#455A64;
-	background-color:#FFFFFF;
-	padding:20px;
+	color:#B6B6B6;
 }
-.indexbutton{
-	padding:0px;	
-	text-transform:uppercase;
+
+.topleft {
+	display: inline;
+}
+
+.topright {
+	display: inline;
+	float: right;
+}
+
+/* header and menu */
+header {
+	background-image:url('imgs/header.jpg');
+	background-position: center;
+	display: block;
+	height: 200px;
+	padding: 100px 0 0 0;
 	text-align:center;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: Arial;
+} 
+
+.tablemenu { 
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 20px 20px;
+	border-collapse: separate;
+	color: #FFFFFF;
+	text-align: center;
 }
 
-/* This is for the body below the menu */
-	
-div #content {
-	display:block;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	width:80%;
-	height:100%;
-	background-color:#FFFFFF;
-	padding-top: 10px;
-	padding-bottom: 25px;
-	padding-left: 25px;
-	padding-right: 25px;
-	font-size:18px;
-	font-family:Times New Roman;
-	color:#000000;
+.menutitle {
+	border-right: 1px dashed #FFFFFF;
+	font-size: 30px;
+	width: 100px;
 }
 
-#content a:link { 
-	color: #FF9800;
-	text-decoration:none;
-	font-style:bold;
+.menu a:link, a:visited { 
+	border: 1px solid #FFFFFF;
+	padding: 0px 20px 0px 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
 }
 
-#content a:visited { 
-	color: #FF9800;
-	text-decoration:none;
-	font-style:bold;
+.menu a:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+	opacity: 0.4;
+	text-align: center;
 }
 
-#content a:hover {
-	color:#FBC02D;
-	text-decoration:none;
+/* section with all the content */
+main {
+	display: block;
+	margin: 20px auto 20px auto;
+	width: 60%;
+	border: 1px solid #B6B6B6;
+	padding: 0px 100px 100px 100px;
+	font-family: Arial;
+	font-size: 18px;
+	color: #000000;	
 }
 
-/* This is for the headers */
-.header {
-	display:block;
-	width:100%;
-	font-size:30px;
-	font-family:arial;
-	color:#607D8B;
-	text-align:center;
-}
-.headsub {
-	display:block;
-	font-style:italic;
-	font-size:15px;
-	font-family:arial;
-	color:#727272;
+section h1 { 
+	border-bottom: 1px dashed #000000;
+	font-weight: normal;
+	font-size: 30px;
+	margin-top: 10px;
 }
 
-/* This is for only the footer */
-
+/* footer style */
 footer {
-	position:fixed;
-	bottom: 0px;
-	left: 0;
-	right: 0;
-	width:100%;
-	padding:10px;
-	text-align:left;
-	background-image: url('../imgs/dark_embroidery.png');
-	color:#CCCCCC;
-	font-family:arial;
-	font-size:12px;
-	font-style:italic;
-}
-
-footer a:link, a:visited {
-	text-decoration:none;
-	font-style:bold;
-	font-family: Times New Roman;
-	color:#FFFFFF;
-	text-transform:uppercase;
-	
-}
-
-footer a:hover { 
-	text-decoration:none;
-	color:#455A64;
+	background: url('imgs/binding_dark.png');
+	opacity: 0.7;
+	padding: 20px;
+	color: #FFFFFF;
+	font-family: Arial;
 }
