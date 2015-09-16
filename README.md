@@ -3,6 +3,14 @@
 
 After the end of Phase 0 (9 weeks), students began learning onsite for Phase 1. No further additions have been made to the blog since. 
 
-#### H4
+##### Dates Worked On
+ April 11, 2015 - May 17, 2015
+
+#### Landing Page
 ![alt text](web_screenshot.png "Landing Page")
 
+##### Technologies
+```
+* HTML5
+* CSS3
+```
